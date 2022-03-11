@@ -16,8 +16,7 @@ const isLiked = (id) => {
 };
 
 const addToLiked = (id) => {
-
-  likedPostsId.plus(id);
+  likedPostsId.push(id);
   console.log('likePostsId')
   showPosts(posts);
 };
